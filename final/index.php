@@ -1,0 +1,9 @@
+<?php
+session_start();
+include('conexion.php');
+if(isset($_SESSION['usuario']))
+{
+	$correo=$_SESSION['correo'];
+	$usu=$_SESSION['usuario'];
+}
+?>

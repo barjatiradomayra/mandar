@@ -1,0 +1,20 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login.html</title>
+</head>
+<body>
+	<center>
+<form action="autenticar.php" method="POST">
+	<label>usuario</label>
+	<input type="text" name="nombre" required placeholder="ingrese nombre" ><br>
+    <label>password</label>
+    <input type="password" name="contrasena" required placeholder="ingrese contrasena"><br>
+    <input type="submit" value="entrar"><br>
+</center>
+</form>
+</body>
+</html>
